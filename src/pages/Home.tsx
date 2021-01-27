@@ -1,6 +1,10 @@
+import { Header } from "semantic-ui-react";
+
 const Home = () => {
     return (
-        <h1>RealWorldGameMaps</h1>
+        <Header as="h1">
+            RealWorldGameMaps
+        </Header>
     );
 };
 
